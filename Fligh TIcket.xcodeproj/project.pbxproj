@@ -14,6 +14,7 @@
 		0D2C5DC72C9B380D00CF35D7 /* Fligh_TIcketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2C5DC62C9B380D00CF35D7 /* Fligh_TIcketTests.swift */; };
 		0D2C5DD12C9B380D00CF35D7 /* Fligh_TIcketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2C5DD02C9B380D00CF35D7 /* Fligh_TIcketUITests.swift */; };
 		0D2C5DD32C9B380D00CF35D7 /* Fligh_TIcketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2C5DD22C9B380D00CF35D7 /* Fligh_TIcketUITestsLaunchTests.swift */; };
+		0D2C5DE12C9B382D00CF35D7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2C5DE02C9B382D00CF35D7 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0D2C5DCC2C9B380D00CF35D7 /* Fligh TIcketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fligh TIcketUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D2C5DD02C9B380D00CF35D7 /* Fligh_TIcketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fligh_TIcketUITests.swift; sourceTree = "<group>"; };
 		0D2C5DD22C9B380D00CF35D7 /* Fligh_TIcketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fligh_TIcketUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D2C5DE02C9B382D00CF35D7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		0D2C5DB42C9B380C00CF35D7 /* Fligh TIcket */ = {
 			isa = PBXGroup;
 			children = (
+				0D2C5DDF2C9B381E00CF35D7 /* Views */,
 				0D2C5DB52C9B380C00CF35D7 /* Fligh_TIcketApp.swift */,
 				0D2C5DB72C9B380C00CF35D7 /* ContentView.swift */,
 				0D2C5DB92C9B380D00CF35D7 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				0D2C5DD22C9B380D00CF35D7 /* Fligh_TIcketUITestsLaunchTests.swift */,
 			);
 			path = "Fligh TIcketUITests";
+			sourceTree = "<group>";
+		};
+		0D2C5DDF2C9B381E00CF35D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D2C5DE02C9B382D00CF35D7 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2C5DE12C9B382D00CF35D7 /* HomeView.swift in Sources */,
 				0D2C5DB82C9B380C00CF35D7 /* ContentView.swift in Sources */,
 				0D2C5DB62C9B380C00CF35D7 /* Fligh_TIcketApp.swift in Sources */,
 			);
